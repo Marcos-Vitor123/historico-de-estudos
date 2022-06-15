@@ -1,0 +1,134 @@
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400; 
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+ul {
+  padding: 1.5px 1.5px 1.5px 1.5px;
+  /*margin: 0 0 0 0;*/
+}
+
+li {
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+  color: transparent;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+  cursor: default;
+}
+
+li:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#history {
+  width: 1223px;
+  padding-left: calc(1% + 9%);
+  padding: 0px 0px 0 200px;
+  margin-bottom: -100px;
+}
+
+#cashierHistory {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#indexProgress ul li{ 
+  display: inline-block;
+}
+
+.sinais {
+  background-color: white;
+  text-align: center;
+}
+
+.colorProgress {
+  color: transparent;
+}
+
+#item1 {
+  background-color: rgb(170, 79, 255);
+  border: 1px solid black;
+}
+
+#item2 {
+  background-color: rgb(154, 50, 252);
+  border: 1px solid black;
+}
+
+#item3 {
+  background-color: rgb(138, 18, 250);
+  border: 1px solid black;
+}
+
+#item4 {
+  background-color: rgb(110, 0, 212);
+  border: 1px solid black;
+}
+
+#item5 {
+  background-color: rgb(83, 0, 160);
+  border: 1px solid black;
+}
+
+#container {
+  margin-top: 100px;
+  padding-left: calc(1% + 10%);
+}
+
+#monthsYear {
+  display: flex;
+  width: 1223px;
+  border: solid 2px rgb(0, 0, 34);
+  margin: 0 0 0 0;
+  padding: 0 20px 0 5px;
+}
+
+#daysWeek li{
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+#january, 
+#february, 
+#march, 
+#april, 
+#may, 
+#june, 
+#july, 
+#august, 
+#september, 
+#octuber, 
+#november, 
+#december {
+  display: block;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 15px 0;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.days {
+  display: flex;
+}
+
+#dayJune9 {
+  background-color: rgb(170, 79, 255);
+}
