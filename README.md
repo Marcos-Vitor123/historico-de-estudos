@@ -1,4 +1,4 @@
-# historico-de-estudos
+# historico de estudos
 
 Trata-se de todos os meus históricos de estudos durante minha caminhada na programação.
 
