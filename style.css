@@ -132,3 +132,12 @@ p {
 #dayJune9 {
   background-color: rgb(170, 79, 255);
 }
+
+h3 {
+  color:rgb(170, 0, 0);
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 200px;
+  margin-right: 160px;
+}
