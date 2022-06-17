@@ -105,6 +105,10 @@ li:hover {
   color: black;
 }
 
+#daysWeek p{
+  margin: 0;
+}
+
 #january, 
 #february, 
 #march, 
@@ -131,12 +135,16 @@ p {
   display: flex;
 }
 
-#dayJune9 {
+#dayJune14 {
   background-color: rgb(170, 79, 255);
 }
 
-#dayJune10 {
+#dayJune15 {
   background-color: rgb(170, 79, 255);
+}
+
+#dayJune16 {
+  background-color: rgb(138, 18, 250);
 }
 
 h3 {
