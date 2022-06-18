@@ -1,3 +1,10 @@
+:root {
+  --colorProgress-one: rgb(170, 79, 255);
+  --colorProgress-two: rgb(140, 24, 248);
+  --colorProgress-three: rgb(109, 1, 211);
+  --colorProgress-four: rgb(85, 0, 165);
+  --colorProgress-five: rgb(44, 1, 85);
+}
 
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -5,10 +12,15 @@
 }
 
 h1 {
+  color: rgb(0, 0, 75);
   font-size: 50px;
   font-weight: 800;
   text-align: center;
   margin-bottom: 100px;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 ul {
@@ -17,7 +29,7 @@ ul {
 }
 
 li {
-  /* list-style-type: none; */
+  list-style-type: none;
   background-color: rgb(255, 255, 255);
   color: transparent;
   border: 1px solid black;
@@ -25,6 +37,7 @@ li {
   height: 20px;
   margin-bottom: 3px;
   cursor: default;
+  box-shadow: none;
 }
 
 li:hover {
@@ -49,6 +62,12 @@ li:hover {
   display: inline-block;
 }
 
+.colorProgress:hover, 
+.sinais:hover { 
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+}
+
 .sinais {
   background-color: white;
   text-align: center;
@@ -59,28 +78,28 @@ li:hover {
   color: transparent;
 }
 
-#item1 {
-  background-color: rgb(170, 79, 255);
+#colorProgressOne {
+  background-color: var(--colorProgress-one);
   border: 1px solid black;
 }
 
-#item2 {
-  background-color: rgb(154, 50, 252);
+#colorProgressTwo {
+  background-color: var(--colorProgress-two);
   border: 1px solid black;
 }
 
-#item3 {
-  background-color: rgb(138, 18, 250);
+#colorProgressThree {
+  background-color: var(--colorProgress-three);
   border: 1px solid black;
 }
 
-#item4 {
-  background-color: rgb(110, 0, 212);
+#colorProgressFour {
+  background-color: var(--colorProgress-four);
   border: 1px solid black;
 }
 
-#item5 {
-  background-color: rgb(83, 0, 160);
+#colorProgressFive {
+  background-color: var(--colorProgress-five);
   border: 1px solid black;
 }
 
@@ -104,26 +123,34 @@ li:hover {
   border: 1px solid white;
   color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #daysWeek p {
   margin: 0;
 }
 
-#january, 
-#february, 
-#march, 
-#april, 
-#may, 
-#june, 
-#july, 
-#august, 
-#september, 
-#octuber, 
-#november, 
-#december {
+#daysWeek li:hover {
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+  cursor: auto;
+}
+
+#january p, 
+#february p, 
+#march p, 
+#april p, 
+#may p, 
+#june p, 
+#july p, 
+#august p, 
+#september p, 
+#octuber p, 
+#november p, 
+#december p {
   display: block;
   text-align: center;
+  font-weight: bold;
 }
 
 p {
@@ -137,15 +164,19 @@ p {
 }
 
 #dayJune14 {
-  background-color: rgb(170, 79, 255);
+  background-color: var(--colorProgress-one);
 }
 
 #dayJune15 {
-  background-color: rgb(170, 79, 255);
+  background-color: var(--colorProgress-one);
 }
 
 #dayJune16 {
-  background-color: rgb(138, 18, 250);
+  background-color: var(--colorProgress-three);
+}
+
+#dayJune17 {
+  background-color: var(--colorProgress-two);
 }
 
 h3 {
