@@ -63,12 +63,12 @@ li:hover {
 }
 
 .colorProgress:hover, 
-.sinais:hover { 
+.signals:hover { 
   -webkit-transform: scale(1.0);
   transform: scale(1.0);
 }
 
-.sinais {
+.signals {
   background-color: white;
   text-align: center;
   color: black;
