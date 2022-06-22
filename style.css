@@ -183,6 +183,10 @@ p {
   background-color: var(--colorProgress-three);
 }
 
+#dayJune21 {
+  background-color: var(--colorProgress-two);
+}
+
 h3 {
   color:rgb(170, 0, 0);
   font-weight: bold;
