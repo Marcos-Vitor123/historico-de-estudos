@@ -191,6 +191,10 @@ p {
   background-color: var(--colorProgress-two);
 }
 
+#dayJune23 {
+  background-color: var(--colorProgress-one);
+}
+
 h3 {
   color:rgb(170, 0, 0);
   font-weight: bold;
