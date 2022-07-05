@@ -204,7 +204,51 @@ p {
 }
 
 #dayJuly01 {
+  background-color: var(--colorProgress-two);
+}
+
+#dayJuly02 {
   background-color: var(--colorProgress-one);
+}
+
+#dayJuly03 {
+  background-color: var(--colorProgress-one);
+}
+
+#dayJuly04 {
+  background-color: var(--colorProgress-three);
+}
+
+#subtitles {
+  width: 1223px;
+  padding-left: calc(1% + 9%);
+  padding: 0 0 0 0;
+}
+
+#subtitlesBoxes {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+#indexSubtitles ul li{ 
+  list-style-type: disc;
+  display: block;
+  color: black;
+}
+
+.subtitlesItems {
+  
+  color: black;
+  border: none;
+  width: auto;
+  height: auto;
+}
+
+.subtitlesItems:hover {
+  list-style-type: disc;
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
 }
 
 h3 {
