@@ -219,6 +219,10 @@ p {
   background-color: var(--colorProgress-three);
 }
 
+#dayJuly05 {
+  background-color: var(--colorProgress-two);
+}
+
 #subtitles {
   width: 1223px;
   padding-left: calc(1% + 9%);
