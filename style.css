@@ -223,6 +223,18 @@ p {
   background-color: var(--colorProgress-two);
 }
 
+#dayJuly06 {
+  background-color: var(--colorProgress-two);
+}
+
+#dayJuly07 {
+  background-color: var(--colorProgress-two);
+}
+
+#dayJuly08 {
+  background-color: var(--colorProgress-two);
+}
+
 #subtitles {
   width: 1223px;
   padding-left: calc(1% + 9%);
